@@ -13,3 +13,6 @@ buildscript {
 }
 
 apply plugin: "com.liferay.workspace"
+include ":modules:header-api"
+include ":modules:header-web"
+include ":modules:header-sample-contributor"

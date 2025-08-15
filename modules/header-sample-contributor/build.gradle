@@ -1,0 +1,16 @@
+plugins {
+	id 'java'
+	id 'com.liferay.plugin'
+}
+
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "release.portal.api"
+	compileOnly group: 'org.osgi', name: 'org.osgi.service.component.annotations', version: '1.5.1'
+	compileOnly project(":modules:header-api")
+}
+
+sourceCompatibility = '1.8'
+
+tasks.withType(JavaCompile) {
+	options.encoding = 'UTF-8'
+}
