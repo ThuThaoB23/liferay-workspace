@@ -1,0 +1,7 @@
+Bundle-Name: css-test
+Bundle-SymbolicName: com.csstest
+Bundle-Version: 1.0.0
+Export-Package: com.csstest.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"

@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.employee.model.Employee">
+		<field name="empId" type="int" />
+		<field name="firstName" type="String" />
+	</model>
+</model-hints>

@@ -1,0 +1,7 @@
+Bundle-Name: service-tt
+Bundle-SymbolicName: com.demo
+Bundle-Version: 1.0.0
+Export-Package: com.demo.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
